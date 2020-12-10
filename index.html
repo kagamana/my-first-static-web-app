@@ -1,22 +1,85 @@
-<!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>My Static Web App</title>
+    <title></title>
+    <link rel="StyleSheet" href="./css/style.css">
+    <link rel="StyleSheet" href="./css/home.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 </head>
 
 <body>
     <header>
-        <h1>My First Static Web App</h1>
+        <img src="./images/logo5.PNG" style="height: 150px;">
     </header>
-    <main>
-        <h2 class="center">ĐÂY LÀ WEB CỦA BỐ</h2>
-        <!-- TODO: Your code here... -->
+    <nav>
+        <ul>
+            <li><a data-section="home">HOME</a></li>
+            <li><a data-section="services" href="./home.html">POST</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">SHARE</a>
+            </li>
+            <li style="float:right"><a data-section="about" href="./aboutus.html">ABOUT US</a></li>
+        </ul>
+    </nav>
+    <section>
+        <picture>
+            <img src="./images/elvis-presley-1482026_1920.jpg" style="width:100%">
+        </picture>
+    </section>
+    <hr>
+    <footer>
+        <div class="footer">
+            <br>
+            <div class="row">
+                <div class="column">
+                    <div style="font-size: 20px;">Ý KIẾN ĐÓNG GÓP XIN LIÊN HỆ : </div>
+                    <br>
+                    <div style="border: 1px solid white; max-width: 550px;"></div>
+                    <br>
+                    <div>Địa chỉ : sô 35 ngõ 521 Cổ Nhuế - phường Đức Thắng - Quận Bắc Từ Liêm - Hà Nội</div>
+                    <div>Email : choimiki212@gmail.com</div>
+                    <div>Số điện thoại :0332867223</div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <div style="font-size: 20px;">FANPAGE</div>
+                        <br>
+                        <div style="border: 1px solid white; max-width: 550px;"></div>
+                        <br>
+                        <a href="https://www.facebook.com/groups/fallinluv.music"><img src="./images/logofb.png" width="10%"></a>
+                        <a href=""><img src="./images/logoyt.png" width="10%"></a>
+                        <a href=""><img src="./images/instagram" width="10%"></a>
+                    </div>
+                    <div class="column">
+                        <div style="font-size: 20px;">ĐỐI TÁC ĐỘC QUYỀN</div>
+                        <br>
+                        <div style="border: 1px solid white; max-width: 550px;"></div>
+                        <br>
+                        <a href="https://www.spotify.com/vn-vi/"><img src="./images/130700949_387889575876923_2953710510691960515_n.png" width="10%"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <script>
+        $(function() {
+            $('nav ul li a').click(function() {
+                // Lấy section để hiển thị
+                var $section = $('#' + $(this).data('section'));
 
-    </main>
+                // Nếu đang hiện thì không làm gì.
+                // Nếu không, ẩn tất cả các se cho hiện (kiểu fade in) phần mong muốn.
+                if (!$section.is(':visible')) {
+                    $('.hideable-section').hide();
+                    $section.fadeIn();
+                }
+            });
+        });
+    </script> -->
 </body>
 
 </html>
