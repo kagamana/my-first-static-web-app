@@ -1,5 +1,5 @@
 # BÀI THU HOẠCH CHƯƠNG 4 - MÔN : ĐIỆN TOÁN ĐÁM MÂY
-Sinh viên thực hiện : Nguyễn Minh Thông
+Sinh viên thực hiện : Nguyễn Minh Thông-
 Mã sinh viên : 1821050949
 
 # My Static Web App
