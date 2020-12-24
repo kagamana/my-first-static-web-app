@@ -22,6 +22,7 @@ Trong bài viết này chúng ta sẽ cùng làm với nhau 4 việc :
 
 ## Tải Heroku CLI
 Các bạn truy cập vào đường link [The Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) để tải Heroku CLI về máy. Chọn các phiên bản phù hợp với thiết bị của bạn. Có rất nhiều phiên bản để các bạn lựa chọn.
+
 ![hình ảnh](./images/taiherokucli.png)
 
 
