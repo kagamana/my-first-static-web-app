@@ -72,7 +72,7 @@ Giải thích câu lệnh này, -m được sử dụng để tạo message cho 
 
 ## Deploy ứng dụng
 
-Có thể có nhiều cách để Deploy ứng dụng lên Heroku nhưng có hai cách thông dụng và dễ thực hiện đó là sử dụng Heroku CLI như tôi vừa trình bày ở bên trên và một cách nữa là bạn có thể kết nối với Github rồi Deploy ứng dung web lên Heroku. Có một lời khuyên cho bạn là khi bạn mới bắt đầu triển khai ứng dụng lên dịch vụ điện toán đám mây - ở đây là Heroku thì bạn nên dùng cách thủ công đó là sử dụng Heroku CLI. Sau khi bạn đã Push được ứng dụng lên một cách thuận lợi thì từ những lầ sau bạn hãy thực hiện cách số hai là deploy thông qua liên kết với Github để đỡ nảy sinh nhiều bugs.
+Có thể có nhiều cách để Deploy ứng dụng lên Heroku nhưng có hai cách thông dụng và dễ thực hiện đó là sử dụng Heroku CLI như tôi vừa trình bày ở bên trên và một cách nữa là bạn có thể kết nối với Github rồi Deploy ứng dung web lên Heroku. Có một lời khuyên cho bạn là khi bạn mới bắt đầu triển khai ứng dụng lên dịch vụ điện toán đám mây - ở đây là Heroku thì bạn nên dùng cách thủ công đó là sử dụng Heroku CLI. Sau khi bạn đã Push được ứng dụng lên một cách thuận lợi thì từ những lầ sau bạn hãy thực hiện cách số hai là deploy thông qua liên kết với Github để đỡ nảy sinh nhiều bugs (lỗi thường gặp phải là sai nhánh Github).
 
 Chúng ta bắt đầu với cách deploy khi kết nối với Github bạn sẽ chọn kho lưu trữ (repositories) chứa source code mà bạn đã push lên Github rồi kết nối chúng với nhau :
 
@@ -80,9 +80,21 @@ Chúng ta bắt đầu với cách deploy khi kết nối với Github bạn s�
 
  Ở đây tôi đã kết nối thành công.
 
-Tiếp đến bạn cần chọn nhánh của 
+Tiếp đến bạn cần chọn nhánh của Github để deploy sau đó chọn **Deploy Branch** để đưa ứng dụng lên Heroku.
+
+![hình ảnh](./images/i8.PNG)
+
+Sau khi push thành công bạn có thể xem. Click vào **View** sẽ đưa bạn đến trang ứng dụng web mà bạn đã triển khai thành công trên Heroku. 
+
+Chúng ta chuyển sang trang Github, sau khi đã triển khai thành công bạn có thể mở ngay tại đây. Chọn vào kho lưu trữ mà bạn đã kết nối với Heroku -> vào phần code sẽ có mục **Environments** ở dưới cùng phía bên phải màn hình.
+
+![hình ảnh](./images/i9.PNG)
+
+Click vào mục này bạn sẽ được đưa sang một trang mới chọn **View deployment** để mở ứng dụng bạn đã triểm khai thành công trên Heroku.
+
+![hình ảnh](./images/i10.PNG)
 
 
-Đây là khi kết nối với Github thành công :
 
-![hình ảnh](./images/kngithub.PNG)
+
+**Cảm ơn các bạn đã theo dõi tài liệu của tôi. Chúc các bạn thành công !!!**
