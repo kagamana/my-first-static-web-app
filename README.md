@@ -10,7 +10,7 @@ Trong bài viết này tôi sẽ tạo ra một "tài liệu" hướng dẫn cá
 
 ![Sound Magic](./images/homepage.png)
 
-Sau khi xem "tài liệu" này xong thì bạn sẽ thực hiện được một số việc với Heroku.
+Sau khi xem xong "tài liệu" này thì bạn sẽ thực hiện được một số việc với Heroku.
 
 ## Mở đầu
 Heroku cung cấp dịch vụ máy chủ đám mây giúp dễ dàng trong việc deploy ứng dụng. Điều tuyệt vời ở Heroku là trang này bạn có thể sử dụng dịch vụ hoàn toàn miễn phí với các ứng dụng web không yêu cầu phải có tốc độ truy câp dung lương lớn.
@@ -43,3 +43,46 @@ Trong mục *App Name* chọn tên cho ứng dụng nếu bạn để trống th
 ## Tạo Git Repository trên máy Local
 Đầu tiên các bạn tải cho tôi phần mềm GIT để thuận tiện cho việc deploy ứng dụng web. Đường link để tải tôi sẽ để tại đây [ Click vào đây để download GIT về máy tính](https://git-scm.com/)
 
+Nếu bạn chưa có, hãy đăng nhập vào tài khoản Heroku của bạn và làm theo lời nhắc để tạo kháo công khai SSH mới :
+
+![hình ảnh](./images/i0.PNG)
+
+Bây giờ trên máy tính local, chúng ta cần khởi tạo Git local repository (hay local repo). Local repo giống như một cái kho, nơi chứa source code mà bạn sẽ dùng để phát triển ứng dụng. Trên terminal di chuyển tới thư mục ở máy tính của bạn và chạy câu lệnh sau :
+
+![hình ảnh](./images/i1.PNG)
+
+Câu lệnh này dùng để khởi tạo một dự án Git ở trên máy tính local. Tiếp theo chạy câu lệnh sau để xem trạng thái (status) của các file trên local repo này :
+
+![hình ảnh](./images/i2.PNG)
+
+Bạn sẽ thấy kết quả như sau :
+
+![hình ảnh](./images/i3.PNG)
+
+Tiếp theo chạy câu lệnh sau để thêm tất cả các file có trong thư mục dự án vào Git :
+
+![hình ảnh](./images/i4.PNG)
+
+Chạy *git status* một lần nữa để kiểm tra trạng thái của các file. Lúc này bạn sẽ thấy Git đánh dấu các file vừa được thêm bằng màu khác với trước đó.
+Cuối cùng, chúng ta hãy tạo một commit đầu tiên sử dụng câu lệnh :
+
+![hình ảnh](./images/i5.PNG)
+
+Giải thích câu lệnh này, -m được sử dụng để tạo message cho commit. Message này thường là nội dung tóm tắt mô tả khi commit thay đổi những gì trong source code. Bạn có thể đặt bất cứ tên nào cũng được. Hãy đặt những massage đơn giản và dễ nhớ nhé.
+
+## Deploy ứng dụng
+
+Có thể có nhiều cách để Deploy ứng dụng lên Heroku nhưng có hai cách thông dụng và dễ thực hiện đó là sử dụng Heroku CLI như tôi vừa trình bày ở bên trên và một cách nữa là bạn có thể kết nối với Github rồi Deploy ứng dung web lên Heroku. Có một lời khuyên cho bạn là khi bạn mới bắt đầu triển khai ứng dụng lên dịch vụ điện toán đám mây - ở đây là Heroku thì bạn nên dùng cách thủ công đó là sử dụng Heroku CLI. Sau khi bạn đã Push được ứng dụng lên một cách thuận lợi thì từ những lầ sau bạn hãy thực hiện cách số hai là deploy thông qua liên kết với Github để đỡ nảy sinh nhiều bugs.
+
+Chúng ta bắt đầu với cách deploy khi kết nối với Github bạn sẽ chọn kho lưu trữ (repositories) chứa source code mà bạn đã push lên Github rồi kết nối chúng với nhau :
+
+![hình ảnh](./images/i6.PNG)
+
+ Ở đây tôi đã kết nối thành công.
+
+Tiếp đến bạn cần chọn nhánh của 
+
+
+Đây là khi kết nối với Github thành công :
+
+![hình ảnh](./images/kngithub.PNG)
